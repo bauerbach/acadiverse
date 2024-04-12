@@ -1,0 +1,46 @@
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\bin\Debug\net6.0-windows\AcadiverseCourseCreator.deps.json
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\bin\Debug\net6.0-windows\AcadiverseCourseCreator.runtimeconfig.json
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\bin\Debug\net6.0-windows\AcadiverseCourseCreator.exe
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\bin\Debug\net6.0-windows\AcadiverseCourseCreator_ReportBug.exe
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\bin\Debug\net6.0-windows\AcadiverseCourseCreator_ReportBug.deps.json
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\bin\Debug\net6.0-windows\AcadiverseCourseCreator_ReportBug.runtimeconfig.json
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\bin\Debug\net6.0-windows\AcadiverseCourseCreator_ReportBug.dll
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\bin\Debug\net6.0-windows\AcadiverseCourseCreator_ReportBug.pdb
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\bin\Debug\net6.0-windows\BCrypt.Net-Next.dll
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\bin\Debug\net6.0-windows\ControlzEx.dll
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\bin\Debug\net6.0-windows\Hardcodet.NotifyIcon.Wpf.dll
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\bin\Debug\net6.0-windows\LottieSharp.dll
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\bin\Debug\net6.0-windows\MahApps.Metro.dll
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Core.dll
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.FontAwesome.dll
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\bin\Debug\net6.0-windows\Ookii.Dialogs.Wpf.dll
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\bin\Debug\net6.0-windows\SkiaSharp.dll
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\bin\Debug\net6.0-windows\SkiaSharp.SceneGraph.dll
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\bin\Debug\net6.0-windows\SkiaSharp.Skottie.dll
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\bin\Debug\net6.0-windows\SkiaSharp.Views.Desktop.Common.dll
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\bin\Debug\net6.0-windows\SkiaSharp.Views.WPF.dll
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\bin\Debug\net6.0-windows\de\MahApps.Metro.resources.dll
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\bin\Debug\net6.0-windows\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\bin\Debug\net6.0-windows\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\bin\Debug\net6.0-windows\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\bin\Debug\net6.0-windows\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\bin\Debug\net6.0-windows\AcadiverseCourseCreator.dll
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\bin\Debug\net6.0-windows\AcadiverseLib.dll
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\bin\Debug\net6.0-windows\AcadiverseCourseCreator.pdb
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\bin\Debug\net6.0-windows\AcadiverseCourseCreator.dll.config
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\bin\Debug\net6.0-windows\AcadiverseLib.pdb
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\obj\Debug\net6.0-windows\Acadiverse Course Creator Bug Reporter.csproj.AssemblyReference.cache
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\obj\Debug\net6.0-windows\Acadiverse_Course_Creator_Bug_Reporter.FrmMain.resources
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\obj\Debug\net6.0-windows\Acadiverse Course Creator Bug Reporter.csproj.GenerateResource.cache
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\obj\Debug\net6.0-windows\Acadiverse Course Creator Bug Reporter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\obj\Debug\net6.0-windows\Acadiverse Course Creator Bug Reporter.AssemblyInfoInputs.cache
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\obj\Debug\net6.0-windows\Acadiverse Course Creator Bug Reporter.AssemblyInfo.cs
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\obj\Debug\net6.0-windows\Acadiverse Course Creator Bug Reporter.csproj.CoreCompileInputs.cache
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\obj\Debug\net6.0-windows\Acadiverse Course Creator Bug Reporter.csproj.CopyComplete
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\obj\Debug\net6.0-windows\AcadiverseCourseCreator_ReportBug.dll
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\obj\Debug\net6.0-windows\refint\AcadiverseCourseCreator_ReportBug.dll
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\obj\Debug\net6.0-windows\AcadiverseCourseCreator_ReportBug.pdb
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\obj\Debug\net6.0-windows\Acadiverse Course Creator Bug Reporter.genruntimeconfig.cache
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\Acadiverse Course Creator Crash Reporter\obj\Debug\net6.0-windows\ref\AcadiverseCourseCreator_ReportBug.dll

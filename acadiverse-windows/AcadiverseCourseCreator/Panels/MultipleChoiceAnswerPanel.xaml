@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="AcadiverseCourseCreator.MultipleChoiceAnswerPanel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:AcadiverseCourseCreator" xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+             mc:Ignorable="d" >
+    <StackPanel >
+        <StackPanel x:Name="stkOptions" >
+            <RadioButton Click="RadioButton_Click" Tag="0" Margin="0,2,0,2">
+                <TextBox Width="89" Tag="0" />
+            </RadioButton>
+            <RadioButton Click="RadioButton_Click" Tag="1" Margin="0,2,0,2">
+                <TextBox Width="89" Tag="0" />
+            </RadioButton>
+            <RadioButton Click="RadioButton_Click" Tag="2" Margin="0,2,0,2">
+                <TextBox Width="89" Tag="0" />
+            </RadioButton>
+            <RadioButton Click="RadioButton_Click" Tag="3" Margin="0,2,0,2">
+                <TextBox Width="89" Tag="0" />
+            </RadioButton>
+        </StackPanel>
+    </StackPanel>
+</UserControl>

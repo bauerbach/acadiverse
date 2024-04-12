@@ -1,0 +1,109 @@
+﻿<Window xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls" x:Class="AcadiverseCourseCreator.OptionsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:wf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+        xmlns:local="clr-namespace:AcadiverseCourseCreator"
+        mc:Ignorable="d"
+        Loaded="OptionsWindow_Loaded"
+        Title="OptionsWindow" SizeToContent="WidthAndHeight" ResizeMode="NoResize" WindowStartupLocation="CenterOwner">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="400" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="300" />
+            <RowDefinition Height="20" />
+        </Grid.RowDefinitions>
+        <TabControl Grid.Column="0" Grid.Row="0">
+            <TabItem Header="General">
+                <StackPanel Orientation="Vertical">
+                    <Grid>
+                        <Label Content="Max undos:" Margin="0,0,209,0"/>
+                        <WindowsFormsHost Margin="92,0,244,0">
+                            <wf:NumericUpDown x:Name="numMaxUndos" />
+                        </WindowsFormsHost>
+                    </Grid>
+
+                    <CheckBox x:Name="chkSyncSettings" Content="Sync settings"/>
+                    <CheckBox x:Name="chkSyncProjects" Content="Sync projects"/>
+
+                    <CheckBox x:Name="chkShowStartPage" Content="Show Start Page"/>
+                    <CheckBox x:Name="chkCheckForUpdates" Content="Check for updates on startup"/>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Security">
+                <StackPanel Orientation="Vertical">
+                    <CheckBox x:Name="chkPasswordEnabled" Content="Password Protection" Checked="ChkPasswordEnabled_Checked" />
+                    <Button x:Name="btnChangePassword" Content="Change Password..." Click="ChangePasswordButton_Click" Width="232" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                    <Grid>
+                        <Label Content="Max Password Attempts:"/>
+                        <WindowsFormsHost Margin="144,0,187,0">
+                            <wf:NumericUpDown x:Name="numMaxPasswordAttempts" />
+                        </WindowsFormsHost>
+                    </Grid>
+                    <CheckBox x:Name="chkLockoutEnabled" Content="Enable Lockout" />
+                    <Grid>
+                        <Label Content="Lockout Duration:"/>
+                        <WindowsFormsHost Margin="147,0,187,0">
+                            <wf:NumericUpDown x:Name="numLockoutDuration" />
+                        </WindowsFormsHost>
+                    </Grid>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Backup">
+                <StackPanel Orientation="Vertical">
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="Backup Directory: " />
+                        <TextBox x:Name="txtBackupDirectory" Width="133" />
+                        <Button x:Name="btnBrowseForBackupDirectory" Content="Browse..." Click="BrowseForBackupDirectoryButton_Click" />
+                    </StackPanel>
+
+                    <CheckBox x:Name="chkSyncBackups" Content="Sync backups" />
+                    <CheckBox x:Name="chkAutoBackup" Content="Automatically back up my projects" />
+
+                    <CheckBox x:Name="chkDeleteOldBackups" Content="Delete old backups to save space" />
+                    <Grid>
+                        <Label Content="Days until old backups are deleted:"/>
+                        <WindowsFormsHost Margin="204,0,0,0" >
+                            <wf:NumericUpDown x:Name="numDaysToBackupDeletion" />
+                        </WindowsFormsHost>
+                    </Grid>
+                    <Grid>
+                        <Label Content="Number of backups to keep:"/>
+                        <WindowsFormsHost Margin="204,0,0,0">
+                            <wf:NumericUpDown x:Name="numMaxBackups" />
+                        </WindowsFormsHost>
+                    </Grid>
+
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Saving">
+                <StackPanel Orientation="Vertical">
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="Save Directory:" />
+                        <TextBox x:Name="txtSaveDirectory" Width="140" />
+                        <Button x:Name="btnBrowseForSaveDirectory" Content="Browse..." Click="BrowseForSaveDirectoryButton_Click" />
+                    </StackPanel>
+
+                    <CheckBox x:Name="chkAutoSave" Content="Enable Auto-Save"/>
+                    <Grid>
+                        <Label Content="Autosave Interval:"/>
+                        <WindowsFormsHost Margin="144,0,84,0">
+                            <wf:NumericUpDown x:Name="numAutosaveInterval" />
+                        </WindowsFormsHost>
+                    </Grid>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Scripting">
+                <StackPanel Orientation="Vertical">
+                    <CheckBox x:Name="chkAdvancedScripting" Content="Advanced Scripting"/>
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+        <Button Content="Save" IsDefault="True" Click="SaveButton_Click" Grid.Column="0" Grid.Row="1" Width="80" Margin="235,0,85,0"/>
+        <Button Content="Cancel" IsCancel="True" Click="CancelButton_Click" Grid.Column="0" Grid.Row="1" Width="80" Margin="320,0,0,0"/>
+        <Button Content="Reset Settings" HorizontalAlignment="Left" Grid.Column="0" Grid.Row="1" VerticalAlignment="Center" Width="80" Click="ResetSettingsButton_Click"/>
+    </Grid>
+</Window>

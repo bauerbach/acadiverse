@@ -1,0 +1,48 @@
+﻿<Window x:Class="AcadiverseCourseCreator.Dialogs.QuizPreviewDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AcadiverseCourseCreator.Dialogs"
+        mc:Ignorable="d"
+        Title="QuizPreviewDialog" SizeToContent="WidthAndHeight" Loaded="QuizPreviewDialog_Loaded">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="640" />
+        </Grid.ColumnDefinitions>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="64" />
+            <RowDefinition Height="16" />
+            <RowDefinition Height="24" />
+            <RowDefinition Height="150" />
+            <RowDefinition Height="96" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="64" />
+            <RowDefinition Height="30" />
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="This preview is not the same as the actual in-game Quiz experience, but it is designed based on the Trivia Screen and Trivia Podium objects, both of which are required in an Acadiverse Space for courses with Quizzes. Your score will not count towards your Average Quiz Score, nor will passing this Quiz earn you any Reputation Points or Acadicoins." Grid.Column="0" Grid.Row="0" TextWrapping="Wrap" Margin="10,0,10,0" Foreground="#FFA52B2B" FontWeight="Bold" />
+        <TextBlock x:Name="txtScore" Text="Your Score: 0" Grid.Column="0" Grid.Row="1" />
+        <TextBlock x:Name="txtQuestionNumber" Text="Question 1/1:" Grid.Column="0" Grid.Row="2" Background="#FF3293BD" Foreground="White" />
+        <TextBlock x:Name="txtQuestion" Text="Question text goes here." Grid.Column="0" Grid.Row="3" Background="#FF3293BD" Foreground="White" />
+        
+        <StackPanel x:Name="stkAnswers" Grid.Column="0" Grid.Row="4" Background="#FF3293BD">
+            <TextBlock x:Name="txtAnswer1" Foreground="White" Margin="0,2,0,2">A. </TextBlock>
+            <TextBlock x:Name="txtAnswer2" Foreground="White" Margin="0,2,0,2">B. </TextBlock>
+            <TextBlock x:Name="txtAnswer3" Foreground="White" Margin="0,2,0,2">C. </TextBlock>
+            <TextBlock x:Name="txtAnswer4" Foreground="White" Margin="0,2,0,2">D. </TextBlock>
+        </StackPanel>
+        <StackPanel x:Name="stkTextAnswer" Grid.Column="0" Grid.Row="5"  Background="#FF1F406B" Orientation="Horizontal" >
+            <Label Content="Your Answer: " Foreground="White" />
+            <TextBox x:Name="txtAnswer" Width="549" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Column="0" Grid.Row="6" Background="#FF1F406B" >
+            <Button x:Name="btnAnswer1" Width="64" Height="64" Content="A" FontSize="48" Background="#FFAB0D0D" Foreground="White" Margin="48,0,48,0" Click="btnAnswer1_Click" />
+            <Button x:Name="btnAnswer2" Width="64" Height="64" Content="B" FontSize="48" Background="#FFAB0D0D" Foreground="White" Margin="48,0,48,0" Click="btnAnswer2_Click" />
+            <Button x:Name="btnAnswer3" Width="64" Height="64" Content="C" FontSize="48" Background="#FFAB0D0D" Foreground="White" Margin="48,0,48,0" Click="btnAnswer3_Click" />
+            <Button x:Name="btnAnswer4" Width="64" Height="64" Content="D" FontSize="48" Background="#FFAB0D0D" Foreground="White" Margin="48,0,48,0" Click="btnAnswer4_Click" />
+        </StackPanel>
+        <Button x:Name="btnClose" Content="Close Preview" Grid.Column="0" Grid.Row="7" Margin="530,5,5,3" Click="BtnClose_Click" />
+    </Grid>
+</Window>

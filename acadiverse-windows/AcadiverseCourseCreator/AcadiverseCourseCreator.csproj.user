@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="CustomControls\AvatarItemSelection.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CustomControls\Scripting\ScriptBlockControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Dialogs\PromptDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Dialogs\NPCCreatorWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Dialogs\PasswordWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Dialogs\QuizPreviewDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Dialogs\SetPasswordWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Panels\AdvancedScriptEditor.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Panels\MultipleChoiceAnswerPanel.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Dialogs\OptionsWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Panels\ProjectPropertiesPanel.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Dialogs\PublishingProgressWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Dialogs\PublishWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Panels\QuizPanel.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Panels\ScenarioPanel.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Panels\ScriptEditor.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Dialogs\SelectMusicTrackWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Panels\StartPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Panels\WorksheetPanel.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="CustomControls\AvatarItemSelection.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CustomControls\Scripting\ScriptBlockControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Dialogs\PromptDialog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Dialogs\NPCCreatorWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Dialogs\PasswordWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Dialogs\QuizPreviewDialog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Dialogs\SetPasswordWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Panels\AdvancedScriptEditor.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Panels\MultipleChoiceAnswerPanel.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Dialogs\OptionsWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Panels\ProjectPropertiesPanel.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Dialogs\PublishingProgressWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Dialogs\PublishWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Panels\QuizPanel.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Panels\ScenarioPanel.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Panels\ScriptEditor.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Dialogs\SelectMusicTrackWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Panels\StartPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Panels\WorksheetPanel.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\Strings\en-us.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>True</UseWPF>
+    <UseWindowsForms>False</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LottieSharp" Version="2.1.0" />
+    <PackageReference Include="MahApps.Metro" Version="2.4.9" />
+    <PackageReference Include="MahApps.Metro.IconPacks.FontAwesome" Version="4.11.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Ookii.Dialogs.Wpf" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AcadiverseLib\AcadiverseLib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\Strings\" />
+  </ItemGroup>
+
+</Project> 

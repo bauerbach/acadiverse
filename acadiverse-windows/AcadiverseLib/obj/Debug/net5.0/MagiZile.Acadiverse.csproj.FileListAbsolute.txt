@@ -1,0 +1,14 @@
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\MagiZile.Acadiverse\bin\Debug\net5.0\MagiZile.Acadiverse.deps.json
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\MagiZile.Acadiverse\bin\Debug\net5.0\MagiZile.Acadiverse.dll
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\MagiZile.Acadiverse\bin\Debug\net5.0\ref\MagiZile.Acadiverse.dll
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\MagiZile.Acadiverse\bin\Debug\net5.0\MagiZile.Acadiverse.pdb
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\MagiZile.Acadiverse\obj\Debug\net5.0\MagiZile.Acadiverse.csproj.AssemblyReference.cache
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\MagiZile.Acadiverse\obj\Debug\net5.0\MagiZile.Acadiverse.Resources.resources
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\MagiZile.Acadiverse\obj\Debug\net5.0\MagiZile.Acadiverse.csproj.GenerateResource.cache
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\MagiZile.Acadiverse\obj\Debug\net5.0\MagiZile.Acadiverse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\MagiZile.Acadiverse\obj\Debug\net5.0\MagiZile.Acadiverse.AssemblyInfoInputs.cache
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\MagiZile.Acadiverse\obj\Debug\net5.0\MagiZile.Acadiverse.AssemblyInfo.cs
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\MagiZile.Acadiverse\obj\Debug\net5.0\MagiZile.Acadiverse.csproj.CoreCompileInputs.cache
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\MagiZile.Acadiverse\obj\Debug\net5.0\MagiZile.Acadiverse.dll
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\MagiZile.Acadiverse\obj\Debug\net5.0\ref\MagiZile.Acadiverse.dll
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\MagiZile.Acadiverse\obj\Debug\net5.0\MagiZile.Acadiverse.pdb

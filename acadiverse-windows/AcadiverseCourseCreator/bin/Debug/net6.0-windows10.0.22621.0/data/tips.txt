@@ -1,0 +1,18 @@
+You can password-protect individual projects in the Project Properties panel.
+You can set any free Acadiverse Store item to be a "reward" for completing a scenario or getting at least 80& on a quiz, or even for finishing the entire course, as long as the item is free and is not seasonal, exclusive, or discontinued.
+Acadiverse has a collection of free music for use in your scenarios, sourced from FreePD.com as well as original tracks.
+You can include any image in your quiz or worksheet, and Acadiverse has a large collection of images.
+A Trivia Podium and Trivia Stage is required in any course that contains quizzes.
+There is a selection of music tracks that can be played during a quiz.
+Are these tips not enough? You can get help through the online documentation, Acadiverse Wiki, Acadiverse Forum, or the Acadiverse Discord server.
+Sync projects to your Acadiverse account to be able to access them from anywhere.
+If you subscribe to Acadiverse Premium, you can unlock an additional set of clothing for NPCs to wear, including items which are unavailable to players.
+Custom "variables" can be added to your scenarios to enable advanced functionality.
+You can publish your courses or even individual components to Acadiverse right from Acadiverse Course Creator.
+Acadiverse has a range of pre-made course components you can either use in your own courses or even use to learn how to make your own.
+Acadiverse Course Creator was originally going to be called Acadiverse Lesson Studio.
+Acadiverse was originally going to be a platform exclusively for schools before it expanded to corporate training and even independent learning. Acadiverse Course Creator was also only meant to be available for teachers.
+The Acadiverse game was originally going to be voxel based until Bradley Auerbach decided on 3D graphics with PBR textures instead.
+Bradley Auerbach's original idea for Acadiverse was simply a collection of educational games before it evolved into what it is today.
+Acadiverse was mostly developed by a solo developer who initially started working on it from his bedroom.
+The name "Acadiverse" stands for "ACADemic unIVERSE".

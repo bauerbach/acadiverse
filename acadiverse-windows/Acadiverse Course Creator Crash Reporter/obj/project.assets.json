@@ -1,0 +1,1121 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0-windows7.0": {
+      "BCrypt.Net-Next/4.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/BCrypt.Net-Next.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/BCrypt.Net-Next.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "ControlzEx/4.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.19",
+          "System.Text.Json": "4.7.2"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/ControlzEx.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/ControlzEx.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "LottieSharp/2.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.39",
+          "SkiaSharp.Skottie": "2.88.3",
+          "SkiaSharp.Views.WPF": "2.88.3"
+        },
+        "compile": {
+          "lib/net6.0-windows7.0/LottieSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/LottieSharp.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ],
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
+      "MahApps.Metro/2.4.10": {
+        "type": "package",
+        "dependencies": {
+          "ControlzEx": "[4.4.0, 6.0.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/MahApps.Metro.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/MahApps.Metro.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ],
+        "resource": {
+          "lib/netcoreapp3.1/de/MahApps.Metro.resources.dll": {
+            "locale": "de"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks.FontAwesome/4.11.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.Core.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.FontAwesome.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.Core.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.FontAwesome.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "Microsoft.NETCore.Platforms/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.39": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Ookii.Dialogs.Wpf/5.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows7.0/Ookii.Dialogs.Wpf.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Ookii.Dialogs.Wpf.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
+      },
+      "SkiaSharp/2.88.3": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.NativeAssets.Win32": "2.88.3",
+          "SkiaSharp.NativeAssets.macOS": "2.88.3"
+        },
+        "compile": {
+          "lib/net6.0/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.macOS/2.88.3": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/_._": {}
+        },
+        "runtime": {
+          "lib/net5.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/osx/native/libSkiaSharp.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.Win32/2.88.3": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/_._": {}
+        },
+        "runtime": {
+          "lib/net5.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/libSkiaSharp.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/native/libSkiaSharp.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/libSkiaSharp.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "SkiaSharp.Skottie/2.88.3": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.3"
+        },
+        "compile": {
+          "lib/net6.0/SkiaSharp.SceneGraph.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/net6.0/SkiaSharp.Skottie.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/SkiaSharp.SceneGraph.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/net6.0/SkiaSharp.Skottie.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Desktop.Common/2.88.3": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.3",
+          "System.Drawing.Common": "4.5.1"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/SkiaSharp.Views.Desktop.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/SkiaSharp.Views.Desktop.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.WPF/2.88.3": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.3",
+          "SkiaSharp.Views.Desktop.Common": "2.88.3"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/SkiaSharp.Views.WPF.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/SkiaSharp.Views.WPF.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "System.Drawing.Common/4.5.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0",
+          "Microsoft.Win32.SystemEvents": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Drawing.Common.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Drawing.Common.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/7.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/System.Security.Cryptography.ProtectedData.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Security.Cryptography.ProtectedData.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Text.Json/4.7.2": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AcadiverseCourseCreator/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "AcadiverseLib": "1.0.0",
+          "BCrypt.Net-Next": "4.0.3",
+          "LottieSharp": "2.3.0",
+          "MahApps.Metro": "2.4.10",
+          "MahApps.Metro.IconPacks.FontAwesome": "4.11.0",
+          "Ookii.Dialogs.Wpf": "5.0.1"
+        },
+        "compile": {
+          "bin/placeholder/AcadiverseCourseCreator.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AcadiverseCourseCreator.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
+      },
+      "AcadiverseLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "System.Security.Cryptography.ProtectedData": "7.0.1"
+        },
+        "compile": {
+          "bin/placeholder/AcadiverseLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AcadiverseLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BCrypt.Net-Next/4.0.3": {
+      "sha512": "W+U9WvmZQgi5cX6FS5GDtDoPzUCV4LkBLkywq/kRZhuDwcbavOzcDAr3LXJFqHUi952Yj3LEYoWW0jbEUQChsA==",
+      "type": "package",
+      "path": "bcrypt.net-next/4.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bcrypt.net-next.4.0.3.nupkg.sha512",
+        "bcrypt.net-next.nuspec",
+        "ico.png",
+        "lib/net20/BCrypt.Net-Next.dll",
+        "lib/net20/BCrypt.Net-Next.xml",
+        "lib/net35/BCrypt.Net-Next.dll",
+        "lib/net35/BCrypt.Net-Next.xml",
+        "lib/net462/BCrypt.Net-Next.dll",
+        "lib/net462/BCrypt.Net-Next.xml",
+        "lib/net472/BCrypt.Net-Next.dll",
+        "lib/net472/BCrypt.Net-Next.xml",
+        "lib/net48/BCrypt.Net-Next.dll",
+        "lib/net48/BCrypt.Net-Next.xml",
+        "lib/net5.0/BCrypt.Net-Next.dll",
+        "lib/net5.0/BCrypt.Net-Next.xml",
+        "lib/net6.0/BCrypt.Net-Next.dll",
+        "lib/net6.0/BCrypt.Net-Next.xml",
+        "lib/netstandard2.0/BCrypt.Net-Next.dll",
+        "lib/netstandard2.0/BCrypt.Net-Next.xml",
+        "lib/netstandard2.1/BCrypt.Net-Next.dll",
+        "lib/netstandard2.1/BCrypt.Net-Next.xml",
+        "readme.md"
+      ]
+    },
+    "ControlzEx/4.4.0": {
+      "sha512": "pZ5z4hYWwE4R13UMCVs6vII//nL7hz+Nwn4oJlnsZJRGqJNy6Z9KnJiTZfly6lKFu0pMc1aWBZpx+VqFTQKP1Q==",
+      "type": "package",
+      "path": "controlzex/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "controlzex.4.4.0.nupkg.sha512",
+        "controlzex.nuspec",
+        "lib/net45/ControlzEx.dll",
+        "lib/net45/ControlzEx.pdb",
+        "lib/net45/ControlzEx.xml",
+        "lib/net462/ControlzEx.dll",
+        "lib/net462/ControlzEx.pdb",
+        "lib/net462/ControlzEx.xml",
+        "lib/netcoreapp3.0/ControlzEx.dll",
+        "lib/netcoreapp3.0/ControlzEx.pdb",
+        "lib/netcoreapp3.0/ControlzEx.xml",
+        "lib/netcoreapp3.1/ControlzEx.dll",
+        "lib/netcoreapp3.1/ControlzEx.pdb",
+        "lib/netcoreapp3.1/ControlzEx.xml",
+        "logo-mini.png"
+      ]
+    },
+    "LottieSharp/2.3.0": {
+      "sha512": "tdsMGJ6VjxlJllJ3mMkMjVzf9PpVIuXJV/w8PD5SjnXkZtoqjrDdwSp5oaf1S+S5Bn9qoBhybgM5mfTIVZ58OQ==",
+      "type": "package",
+      "path": "lottiesharp/2.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/lottie_sharp.ico",
+        "contentFiles/any/net47/lottie_sharp.ico",
+        "contentFiles/any/net6.0-windows7.0/lottie_sharp.ico",
+        "lib/net47/LottieSharp.dll",
+        "lib/net6.0-windows7.0/LottieSharp.dll",
+        "lottie_sharp_rect-128.png",
+        "lottiesharp.2.3.0.nupkg.sha512",
+        "lottiesharp.nuspec",
+        "readme.md"
+      ]
+    },
+    "MahApps.Metro/2.4.10": {
+      "sha512": "45exHKJCVYaD1/rNr3ekZPECEBM4uHOt6aYp6yNaJbliFMUo+d3z8Gi1xG+qEkbiHKITX+dlz+BW1FOsjAbl/w==",
+      "type": "package",
+      "path": "mahapps.metro/2.4.10",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/MahApps.Metro.dll",
+        "lib/net452/MahApps.Metro.pdb",
+        "lib/net452/MahApps.Metro.xml",
+        "lib/net452/de/MahApps.Metro.resources.dll",
+        "lib/net46/MahApps.Metro.dll",
+        "lib/net46/MahApps.Metro.pdb",
+        "lib/net46/MahApps.Metro.xml",
+        "lib/net46/de/MahApps.Metro.resources.dll",
+        "lib/net47/MahApps.Metro.dll",
+        "lib/net47/MahApps.Metro.pdb",
+        "lib/net47/MahApps.Metro.xml",
+        "lib/net47/de/MahApps.Metro.resources.dll",
+        "lib/netcoreapp3.0/MahApps.Metro.dll",
+        "lib/netcoreapp3.0/MahApps.Metro.pdb",
+        "lib/netcoreapp3.0/MahApps.Metro.xml",
+        "lib/netcoreapp3.0/de/MahApps.Metro.resources.dll",
+        "lib/netcoreapp3.1/MahApps.Metro.dll",
+        "lib/netcoreapp3.1/MahApps.Metro.pdb",
+        "lib/netcoreapp3.1/MahApps.Metro.xml",
+        "lib/netcoreapp3.1/de/MahApps.Metro.resources.dll",
+        "mahapps.metro.2.4.10.nupkg.sha512",
+        "mahapps.metro.logo.png",
+        "mahapps.metro.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "MahApps.Metro.IconPacks.FontAwesome/4.11.0": {
+      "sha512": "4kkEjmmpKA8FjRMPkl6B65EPazJcA5U7WP840LG8p7uXl/jKhBgIWIXxl3bbKGe2ex13xEGRjgjm+kz7I3Tm0Q==",
+      "type": "package",
+      "path": "mahapps.metro.iconpacks.fontawesome/4.11.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/MahApps.Metro.IconPacks.Core.dll",
+        "lib/net45/MahApps.Metro.IconPacks.Core.pdb",
+        "lib/net45/MahApps.Metro.IconPacks.Core.xml",
+        "lib/net45/MahApps.Metro.IconPacks.FontAwesome.dll",
+        "lib/net45/MahApps.Metro.IconPacks.FontAwesome.pdb",
+        "lib/net45/MahApps.Metro.IconPacks.FontAwesome.xml",
+        "lib/net46/MahApps.Metro.IconPacks.Core.dll",
+        "lib/net46/MahApps.Metro.IconPacks.Core.pdb",
+        "lib/net46/MahApps.Metro.IconPacks.Core.xml",
+        "lib/net46/MahApps.Metro.IconPacks.FontAwesome.dll",
+        "lib/net46/MahApps.Metro.IconPacks.FontAwesome.pdb",
+        "lib/net46/MahApps.Metro.IconPacks.FontAwesome.xml",
+        "lib/net47/MahApps.Metro.IconPacks.Core.dll",
+        "lib/net47/MahApps.Metro.IconPacks.Core.pdb",
+        "lib/net47/MahApps.Metro.IconPacks.Core.xml",
+        "lib/net47/MahApps.Metro.IconPacks.FontAwesome.dll",
+        "lib/net47/MahApps.Metro.IconPacks.FontAwesome.pdb",
+        "lib/net47/MahApps.Metro.IconPacks.FontAwesome.xml",
+        "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.Core.dll",
+        "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.Core.pdb",
+        "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.Core.xml",
+        "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.FontAwesome.dll",
+        "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.FontAwesome.pdb",
+        "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.FontAwesome.xml",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Core.dll",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Core.pdb",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Core.xml",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.FontAwesome.dll",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.FontAwesome.pdb",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.FontAwesome.xml",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Core.dll",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Core.pdb",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Core.xml",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.FontAwesome.dll",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.FontAwesome.pdb",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.FontAwesome.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Core.dll",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Core.pdb",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Core.pri",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Core.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.FontAwesome.dll",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.FontAwesome.pdb",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.FontAwesome.pri",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.FontAwesome.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.FontAwesome/MahApps.Metro.IconPacks.FontAwesome.xr.xml",
+        "logo_small.png",
+        "mahapps.metro.iconpacks.fontawesome.4.11.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.fontawesome.nuspec"
+      ]
+    },
+    "Microsoft.NETCore.Platforms/2.0.0": {
+      "sha512": "VdLJOCXhZaEMY7Hm2GKiULmn7IEPFE4XC5LPSfBVCUIA8YLZVh846gtfBJalsPQF2PlzdD7ecX7DZEulJ402ZQ==",
+      "type": "package",
+      "path": "microsoft.netcore.platforms/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
+        "runtime.json",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Win32.SystemEvents/4.5.0": {
+      "sha512": "LuI1oG+24TUj1ZRQQjM5Ew73BKnZE5NZ/7eAdh1o8ST5dPhUnJvIkiIn2re3MwnkRy6ELRnvEbBxHP8uALKhJw==",
+      "type": "package",
+      "path": "microsoft.win32.systemevents/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Win32.SystemEvents.dll",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "microsoft.win32.systemevents.4.5.0.nupkg.sha512",
+        "microsoft.win32.systemevents.nuspec",
+        "ref/net461/Microsoft.Win32.SystemEvents.dll",
+        "ref/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.39": {
+      "sha512": "8PZKqw9QOcu42xk8puY4P1+EXHL9YGOR9b7qhaYx5cILHul456H073tj99vyPcCt0W0781T9RwHqkx507ZyUpQ==",
+      "type": "package",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.39",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Design/Microsoft.Xaml.Behaviors.Design.dll",
+        "lib/net45/Microsoft.Xaml.Behaviors.dll",
+        "lib/net45/Microsoft.Xaml.Behaviors.pdb",
+        "lib/net45/Microsoft.Xaml.Behaviors.xml",
+        "lib/net5.0-windows7.0/Design/Microsoft.Xaml.Behaviors.DesignTools.dll",
+        "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.dll",
+        "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.pdb",
+        "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.xml",
+        "lib/netcoreapp3.1/Design/Microsoft.Xaml.Behaviors.DesignTools.dll",
+        "lib/netcoreapp3.1/Microsoft.Xaml.Behaviors.dll",
+        "lib/netcoreapp3.1/Microsoft.Xaml.Behaviors.pdb",
+        "lib/netcoreapp3.1/Microsoft.Xaml.Behaviors.xml",
+        "microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+        "microsoft.xaml.behaviors.wpf.nuspec",
+        "tools/Install.ps1"
+      ]
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Ookii.Dialogs.Wpf/5.0.1": {
+      "sha512": "iZNnZwqTpK0cfR0vkotncP1c025/PHlIdzc7iEKBYwhVv1V0zXp9/RT/O0kMhsmlwXqRxxbE4pdhfinbJXtjPg==",
+      "type": "package",
+      "path": "ookii.dialogs.wpf/5.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/icon.png",
+        "lib/net462/Ookii.Dialogs.Wpf.dll",
+        "lib/net462/Ookii.Dialogs.Wpf.pdb",
+        "lib/net462/Ookii.Dialogs.Wpf.xml",
+        "lib/net5.0-windows7.0/Ookii.Dialogs.Wpf.dll",
+        "lib/net5.0-windows7.0/Ookii.Dialogs.Wpf.pdb",
+        "lib/net5.0-windows7.0/Ookii.Dialogs.Wpf.xml",
+        "lib/net6.0-windows7.0/Ookii.Dialogs.Wpf.dll",
+        "lib/net6.0-windows7.0/Ookii.Dialogs.Wpf.pdb",
+        "lib/net6.0-windows7.0/Ookii.Dialogs.Wpf.xml",
+        "lib/netcoreapp3.1/Ookii.Dialogs.Wpf.dll",
+        "lib/netcoreapp3.1/Ookii.Dialogs.Wpf.pdb",
+        "lib/netcoreapp3.1/Ookii.Dialogs.Wpf.xml",
+        "ookii.dialogs.wpf.5.0.1.nupkg.sha512",
+        "ookii.dialogs.wpf.nuspec"
+      ]
+    },
+    "SkiaSharp/2.88.3": {
+      "sha512": "GG8X3EdfwyBfwjl639UIiOVOKEdeoqDgYrz0P1MUCnefXt9cofN+AK8YB/v1+5cLMr03ieWCQdDmPqnFIzSxZw==",
+      "type": "package",
+      "path": "skiasharp/2.88.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "THIRD-PARTY-NOTICES.txt",
+        "interactive-extensions/dotnet/SkiaSharp.DotNet.Interactive.dll",
+        "lib/monoandroid1.0/SkiaSharp.dll",
+        "lib/monoandroid1.0/SkiaSharp.pdb",
+        "lib/monoandroid1.0/SkiaSharp.xml",
+        "lib/net462/SkiaSharp.dll",
+        "lib/net462/SkiaSharp.pdb",
+        "lib/net462/SkiaSharp.xml",
+        "lib/net5.0/SkiaSharp.dll",
+        "lib/net5.0/SkiaSharp.pdb",
+        "lib/net5.0/SkiaSharp.xml",
+        "lib/net6.0-android30.0/SkiaSharp.dll",
+        "lib/net6.0-android30.0/SkiaSharp.pdb",
+        "lib/net6.0-android30.0/SkiaSharp.xml",
+        "lib/net6.0-ios13.6/SkiaSharp.dll",
+        "lib/net6.0-ios13.6/SkiaSharp.pdb",
+        "lib/net6.0-ios13.6/SkiaSharp.xml",
+        "lib/net6.0-maccatalyst13.5/SkiaSharp.dll",
+        "lib/net6.0-maccatalyst13.5/SkiaSharp.pdb",
+        "lib/net6.0-maccatalyst13.5/SkiaSharp.xml",
+        "lib/net6.0-macos10.15/SkiaSharp.dll",
+        "lib/net6.0-macos10.15/SkiaSharp.pdb",
+        "lib/net6.0-macos10.15/SkiaSharp.xml",
+        "lib/net6.0-tizen7.0/SkiaSharp.dll",
+        "lib/net6.0-tizen7.0/SkiaSharp.pdb",
+        "lib/net6.0-tizen7.0/SkiaSharp.xml",
+        "lib/net6.0-tvos13.4/SkiaSharp.dll",
+        "lib/net6.0-tvos13.4/SkiaSharp.pdb",
+        "lib/net6.0-tvos13.4/SkiaSharp.xml",
+        "lib/net6.0/SkiaSharp.dll",
+        "lib/net6.0/SkiaSharp.pdb",
+        "lib/net6.0/SkiaSharp.xml",
+        "lib/netcoreapp3.1/SkiaSharp.dll",
+        "lib/netcoreapp3.1/SkiaSharp.pdb",
+        "lib/netcoreapp3.1/SkiaSharp.xml",
+        "lib/netstandard1.3/SkiaSharp.dll",
+        "lib/netstandard1.3/SkiaSharp.pdb",
+        "lib/netstandard1.3/SkiaSharp.xml",
+        "lib/netstandard2.0/SkiaSharp.dll",
+        "lib/netstandard2.0/SkiaSharp.pdb",
+        "lib/netstandard2.0/SkiaSharp.xml",
+        "lib/netstandard2.1/SkiaSharp.dll",
+        "lib/netstandard2.1/SkiaSharp.pdb",
+        "lib/netstandard2.1/SkiaSharp.xml",
+        "lib/tizen40/SkiaSharp.dll",
+        "lib/tizen40/SkiaSharp.pdb",
+        "lib/tizen40/SkiaSharp.xml",
+        "lib/uap10.0.10240/SkiaSharp.dll",
+        "lib/uap10.0.10240/SkiaSharp.pdb",
+        "lib/uap10.0.10240/SkiaSharp.xml",
+        "lib/uap10.0.16299/SkiaSharp.dll",
+        "lib/uap10.0.16299/SkiaSharp.pdb",
+        "lib/uap10.0.16299/SkiaSharp.xml",
+        "lib/xamarinios1.0/SkiaSharp.dll",
+        "lib/xamarinios1.0/SkiaSharp.pdb",
+        "lib/xamarinios1.0/SkiaSharp.xml",
+        "lib/xamarinmac2.0/SkiaSharp.dll",
+        "lib/xamarinmac2.0/SkiaSharp.pdb",
+        "lib/xamarinmac2.0/SkiaSharp.xml",
+        "lib/xamarintvos1.0/SkiaSharp.dll",
+        "lib/xamarintvos1.0/SkiaSharp.pdb",
+        "lib/xamarintvos1.0/SkiaSharp.xml",
+        "lib/xamarinwatchos1.0/SkiaSharp.dll",
+        "lib/xamarinwatchos1.0/SkiaSharp.pdb",
+        "lib/xamarinwatchos1.0/SkiaSharp.xml",
+        "skiasharp.2.88.3.nupkg.sha512",
+        "skiasharp.nuspec"
+      ]
+    },
+    "SkiaSharp.NativeAssets.macOS/2.88.3": {
+      "sha512": "CEbWAXMGFkPV3S1snBKK7jEG3+xud/9kmSAhu0BEUKKtlMdxx+Qal0U9bntQREM9QpqP5xLWZooodi8IlV8MEg==",
+      "type": "package",
+      "path": "skiasharp.nativeassets.macos/2.88.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "THIRD-PARTY-NOTICES.txt",
+        "build/net462/SkiaSharp.NativeAssets.macOS.targets",
+        "build/net6.0-macos10.15/SkiaSharp.NativeAssets.macOS.targets",
+        "build/xamarinmac2.0/SkiaSharp.NativeAssets.macOS.targets",
+        "buildTransitive/net462/SkiaSharp.NativeAssets.macOS.targets",
+        "buildTransitive/net6.0-macos10.15/SkiaSharp.NativeAssets.macOS.targets",
+        "buildTransitive/xamarinmac2.0/SkiaSharp.NativeAssets.macOS.targets",
+        "lib/net462/_._",
+        "lib/net5.0/_._",
+        "lib/net6.0-macos10.15/_._",
+        "lib/netcoreapp3.1/_._",
+        "lib/netstandard1.3/_._",
+        "lib/xamarinmac2.0/_._",
+        "runtimes/osx/native/libSkiaSharp.dylib",
+        "skiasharp.nativeassets.macos.2.88.3.nupkg.sha512",
+        "skiasharp.nativeassets.macos.nuspec"
+      ]
+    },
+    "SkiaSharp.NativeAssets.Win32/2.88.3": {
+      "sha512": "MU4ASL8VAbTv5vSw1PoiWjjjpjtGhWtFYuJnrN4sNHFCePb2ohQij9JhSdqLLxk7RpRtWPdV93fbA53Pt+J0yw==",
+      "type": "package",
+      "path": "skiasharp.nativeassets.win32/2.88.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "THIRD-PARTY-NOTICES.txt",
+        "build/net462/SkiaSharp.NativeAssets.Win32.targets",
+        "buildTransitive/net462/SkiaSharp.NativeAssets.Win32.targets",
+        "lib/net462/_._",
+        "lib/net5.0/_._",
+        "lib/netcoreapp3.1/_._",
+        "lib/netstandard1.3/_._",
+        "runtimes/win-arm64/native/libSkiaSharp.dll",
+        "runtimes/win-x64/native/libSkiaSharp.dll",
+        "runtimes/win-x86/native/libSkiaSharp.dll",
+        "skiasharp.nativeassets.win32.2.88.3.nupkg.sha512",
+        "skiasharp.nativeassets.win32.nuspec"
+      ]
+    },
+    "SkiaSharp.Skottie/2.88.3": {
+      "sha512": "8jNVREhy/H8DOA/oXP8RXtOsP+GnZp71lkIdlbvrsdr5KTnuM533YiiSr/yKNmVpl3R7wzJggbHxZunH/venFA==",
+      "type": "package",
+      "path": "skiasharp.skottie/2.88.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/monoandroid10.0/SkiaSharp.SceneGraph.dll",
+        "lib/monoandroid10.0/SkiaSharp.SceneGraph.pdb",
+        "lib/monoandroid10.0/SkiaSharp.SceneGraph.xml",
+        "lib/monoandroid10.0/SkiaSharp.Skottie.dll",
+        "lib/monoandroid10.0/SkiaSharp.Skottie.pdb",
+        "lib/monoandroid10.0/SkiaSharp.Skottie.xml",
+        "lib/net462/SkiaSharp.SceneGraph.dll",
+        "lib/net462/SkiaSharp.SceneGraph.pdb",
+        "lib/net462/SkiaSharp.SceneGraph.xml",
+        "lib/net462/SkiaSharp.Skottie.dll",
+        "lib/net462/SkiaSharp.Skottie.pdb",
+        "lib/net462/SkiaSharp.Skottie.xml",
+        "lib/net5.0/SkiaSharp.SceneGraph.dll",
+        "lib/net5.0/SkiaSharp.SceneGraph.pdb",
+        "lib/net5.0/SkiaSharp.SceneGraph.xml",
+        "lib/net5.0/SkiaSharp.Skottie.dll",
+        "lib/net5.0/SkiaSharp.Skottie.pdb",
+        "lib/net5.0/SkiaSharp.Skottie.xml",
+        "lib/net6.0-android30.0/SkiaSharp.SceneGraph.dll",
+        "lib/net6.0-android30.0/SkiaSharp.SceneGraph.pdb",
+        "lib/net6.0-android30.0/SkiaSharp.SceneGraph.xml",
+        "lib/net6.0-android30.0/SkiaSharp.Skottie.dll",
+        "lib/net6.0-android30.0/SkiaSharp.Skottie.pdb",
+        "lib/net6.0-android30.0/SkiaSharp.Skottie.xml",
+        "lib/net6.0-ios13.6/SkiaSharp.SceneGraph.dll",
+        "lib/net6.0-ios13.6/SkiaSharp.SceneGraph.pdb",
+        "lib/net6.0-ios13.6/SkiaSharp.SceneGraph.xml",
+        "lib/net6.0-ios13.6/SkiaSharp.Skottie.dll",
+        "lib/net6.0-ios13.6/SkiaSharp.Skottie.pdb",
+        "lib/net6.0-ios13.6/SkiaSharp.Skottie.xml",
+        "lib/net6.0-maccatalyst13.5/SkiaSharp.SceneGraph.dll",
+        "lib/net6.0-maccatalyst13.5/SkiaSharp.SceneGraph.pdb",
+        "lib/net6.0-maccatalyst13.5/SkiaSharp.SceneGraph.xml",
+        "lib/net6.0-maccatalyst13.5/SkiaSharp.Skottie.dll",
+        "lib/net6.0-maccatalyst13.5/SkiaSharp.Skottie.pdb",
+        "lib/net6.0-maccatalyst13.5/SkiaSharp.Skottie.xml",
+        "lib/net6.0-macos10.15/SkiaSharp.SceneGraph.dll",
+        "lib/net6.0-macos10.15/SkiaSharp.SceneGraph.pdb",
+        "lib/net6.0-macos10.15/SkiaSharp.SceneGraph.xml",
+        "lib/net6.0-macos10.15/SkiaSharp.Skottie.dll",
+        "lib/net6.0-macos10.15/SkiaSharp.Skottie.pdb",
+        "lib/net6.0-macos10.15/SkiaSharp.Skottie.xml",
+        "lib/net6.0-tizen7.0/SkiaSharp.SceneGraph.dll",
+        "lib/net6.0-tizen7.0/SkiaSharp.SceneGraph.pdb",
+        "lib/net6.0-tizen7.0/SkiaSharp.SceneGraph.xml",
+        "lib/net6.0-tizen7.0/SkiaSharp.Skottie.dll",
+        "lib/net6.0-tizen7.0/SkiaSharp.Skottie.pdb",
+        "lib/net6.0-tizen7.0/SkiaSharp.Skottie.xml",
+        "lib/net6.0-tvos13.4/SkiaSharp.SceneGraph.dll",
+        "lib/net6.0-tvos13.4/SkiaSharp.SceneGraph.pdb",
+        "lib/net6.0-tvos13.4/SkiaSharp.SceneGraph.xml",
+        "lib/net6.0-tvos13.4/SkiaSharp.Skottie.dll",
+        "lib/net6.0-tvos13.4/SkiaSharp.Skottie.pdb",
+        "lib/net6.0-tvos13.4/SkiaSharp.Skottie.xml",
+        "lib/net6.0/SkiaSharp.SceneGraph.dll",
+        "lib/net6.0/SkiaSharp.SceneGraph.pdb",
+        "lib/net6.0/SkiaSharp.SceneGraph.xml",
+        "lib/net6.0/SkiaSharp.Skottie.dll",
+        "lib/net6.0/SkiaSharp.Skottie.pdb",
+        "lib/net6.0/SkiaSharp.Skottie.xml",
+        "lib/netcoreapp3.1/SkiaSharp.SceneGraph.dll",
+        "lib/netcoreapp3.1/SkiaSharp.SceneGraph.pdb",
+        "lib/netcoreapp3.1/SkiaSharp.SceneGraph.xml",
+        "lib/netcoreapp3.1/SkiaSharp.Skottie.dll",
+        "lib/netcoreapp3.1/SkiaSharp.Skottie.pdb",
+        "lib/netcoreapp3.1/SkiaSharp.Skottie.xml",
+        "lib/netstandard1.3/SkiaSharp.SceneGraph.dll",
+        "lib/netstandard1.3/SkiaSharp.SceneGraph.pdb",
+        "lib/netstandard1.3/SkiaSharp.SceneGraph.xml",
+        "lib/netstandard1.3/SkiaSharp.Skottie.dll",
+        "lib/netstandard1.3/SkiaSharp.Skottie.pdb",
+        "lib/netstandard1.3/SkiaSharp.Skottie.xml",
+        "lib/netstandard2.0/SkiaSharp.SceneGraph.dll",
+        "lib/netstandard2.0/SkiaSharp.SceneGraph.pdb",
+        "lib/netstandard2.0/SkiaSharp.SceneGraph.xml",
+        "lib/netstandard2.0/SkiaSharp.Skottie.dll",
+        "lib/netstandard2.0/SkiaSharp.Skottie.pdb",
+        "lib/netstandard2.0/SkiaSharp.Skottie.xml",
+        "lib/netstandard2.1/SkiaSharp.SceneGraph.dll",
+        "lib/netstandard2.1/SkiaSharp.SceneGraph.pdb",
+        "lib/netstandard2.1/SkiaSharp.SceneGraph.xml",
+        "lib/netstandard2.1/SkiaSharp.Skottie.dll",
+        "lib/netstandard2.1/SkiaSharp.Skottie.pdb",
+        "lib/netstandard2.1/SkiaSharp.Skottie.xml",
+        "lib/xamarinios1.0/SkiaSharp.SceneGraph.dll",
+        "lib/xamarinios1.0/SkiaSharp.SceneGraph.pdb",
+        "lib/xamarinios1.0/SkiaSharp.SceneGraph.xml",
+        "lib/xamarinios1.0/SkiaSharp.Skottie.dll",
+        "lib/xamarinios1.0/SkiaSharp.Skottie.pdb",
+        "lib/xamarinios1.0/SkiaSharp.Skottie.xml",
+        "lib/xamarinmac2.0/SkiaSharp.SceneGraph.dll",
+        "lib/xamarinmac2.0/SkiaSharp.SceneGraph.pdb",
+        "lib/xamarinmac2.0/SkiaSharp.SceneGraph.xml",
+        "lib/xamarinmac2.0/SkiaSharp.Skottie.dll",
+        "lib/xamarinmac2.0/SkiaSharp.Skottie.pdb",
+        "lib/xamarinmac2.0/SkiaSharp.Skottie.xml",
+        "lib/xamarintvos1.0/SkiaSharp.SceneGraph.dll",
+        "lib/xamarintvos1.0/SkiaSharp.SceneGraph.pdb",
+        "lib/xamarintvos1.0/SkiaSharp.SceneGraph.xml",
+        "lib/xamarintvos1.0/SkiaSharp.Skottie.dll",
+        "lib/xamarintvos1.0/SkiaSharp.Skottie.pdb",
+        "lib/xamarintvos1.0/SkiaSharp.Skottie.xml",
+        "lib/xamarinwatchos1.0/SkiaSharp.SceneGraph.dll",
+        "lib/xamarinwatchos1.0/SkiaSharp.SceneGraph.pdb",
+        "lib/xamarinwatchos1.0/SkiaSharp.SceneGraph.xml",
+        "lib/xamarinwatchos1.0/SkiaSharp.Skottie.dll",
+        "lib/xamarinwatchos1.0/SkiaSharp.Skottie.pdb",
+        "lib/xamarinwatchos1.0/SkiaSharp.Skottie.xml",
+        "skiasharp.skottie.2.88.3.nupkg.sha512",
+        "skiasharp.skottie.nuspec"
+      ]
+    },
+    "SkiaSharp.Views.Desktop.Common/2.88.3": {
+      "sha512": "Bo1KAmb16IFvZecfIUZqGpyZ718+dJqfGAMWKNOWFENkO67qGYVAs4P0qYytaTQsgpH2Q0OVSkGJPz3tJhP0QA==",
+      "type": "package",
+      "path": "skiasharp.views.desktop.common/2.88.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/net462/SkiaSharp.Views.Desktop.Common.dll",
+        "lib/net462/SkiaSharp.Views.Desktop.Common.pdb",
+        "lib/net462/SkiaSharp.Views.Desktop.Common.xml",
+        "lib/netcoreapp3.1/SkiaSharp.Views.Desktop.Common.dll",
+        "lib/netcoreapp3.1/SkiaSharp.Views.Desktop.Common.pdb",
+        "lib/netcoreapp3.1/SkiaSharp.Views.Desktop.Common.xml",
+        "lib/netstandard2.0/SkiaSharp.Views.Desktop.Common.dll",
+        "lib/netstandard2.0/SkiaSharp.Views.Desktop.Common.pdb",
+        "lib/netstandard2.0/SkiaSharp.Views.Desktop.Common.xml",
+        "skiasharp.views.desktop.common.2.88.3.nupkg.sha512",
+        "skiasharp.views.desktop.common.nuspec"
+      ]
+    },
+    "SkiaSharp.Views.WPF/2.88.3": {
+      "sha512": "ykXY0yWns9KQkSJJCgc2J/QGarXHbW85KvL3rQw3WAegEu82sil4D+1TQL7V7cLYH6Zn9862oiDZ++cuKAU5tw==",
+      "type": "package",
+      "path": "skiasharp.views.wpf/2.88.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/net462/SkiaSharp.Views.WPF.dll",
+        "lib/net462/SkiaSharp.Views.WPF.pdb",
+        "lib/net462/SkiaSharp.Views.WPF.xml",
+        "lib/netcoreapp3.1/SkiaSharp.Views.WPF.dll",
+        "lib/netcoreapp3.1/SkiaSharp.Views.WPF.pdb",
+        "lib/netcoreapp3.1/SkiaSharp.Views.WPF.xml",
+        "skiasharp.views.wpf.2.88.3.nupkg.sha512",
+        "skiasharp.views.wpf.nuspec"
+      ]
+    },
+    "System.Drawing.Common/4.5.1": {
+      "sha512": "GiyeGi/v4xYDz1vCNFwFvhz9k1XddOG7VD3jxRqzRBCbTHji+s3HxxbxtoymuK4OadEpgotI8zQ5+GEEH9sUEQ==",
+      "type": "package",
+      "path": "system.drawing.common/4.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.Drawing.Common.dll",
+        "lib/netstandard2.0/System.Drawing.Common.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.Drawing.Common.dll",
+        "ref/netstandard2.0/System.Drawing.Common.dll",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll",
+        "system.drawing.common.4.5.1.nupkg.sha512",
+        "system.drawing.common.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Security.Cryptography.ProtectedData/7.0.1": {
+      "sha512": "3evI3sBfKqwYSwuBcYgShbmEgtXcg8N5Qu+jExLdkBXPty2yGDXq5m1/4sx9Exb8dqdeMPUs/d9DQ0wy/9Adwg==",
+      "type": "package",
+      "path": "system.security.cryptography.protecteddata/7.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Security.Cryptography.ProtectedData.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Security.Cryptography.ProtectedData.targets",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net462/System.Security.Cryptography.ProtectedData.dll",
+        "lib/net462/System.Security.Cryptography.ProtectedData.xml",
+        "lib/net6.0/System.Security.Cryptography.ProtectedData.dll",
+        "lib/net6.0/System.Security.Cryptography.ProtectedData.xml",
+        "lib/net7.0/System.Security.Cryptography.ProtectedData.dll",
+        "lib/net7.0/System.Security.Cryptography.ProtectedData.xml",
+        "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
+        "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "system.security.cryptography.protecteddata.7.0.1.nupkg.sha512",
+        "system.security.cryptography.protecteddata.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Text.Json/4.7.2": {
+      "sha512": "TcMd95wcrubm9nHvJEQs70rC0H/8omiSGGpU4FQ/ZA1URIqD4pjmFJh2Mfv1yH1eHgJDWTi2hMDXwTET+zOOyg==",
+      "type": "package",
+      "path": "system.text.json/4.7.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Text.Json.dll",
+        "lib/net461/System.Text.Json.xml",
+        "lib/netcoreapp3.0/System.Text.Json.dll",
+        "lib/netcoreapp3.0/System.Text.Json.xml",
+        "lib/netstandard2.0/System.Text.Json.dll",
+        "lib/netstandard2.0/System.Text.Json.xml",
+        "system.text.json.4.7.2.nupkg.sha512",
+        "system.text.json.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "AcadiverseCourseCreator/1.0.0": {
+      "type": "project",
+      "path": "../AcadiverseCourseCreator/AcadiverseCourseCreator.csproj",
+      "msbuildProject": "../AcadiverseCourseCreator/AcadiverseCourseCreator.csproj"
+    },
+    "AcadiverseLib/1.0.0": {
+      "type": "project",
+      "path": "../AcadiverseLib/AcadiverseLib.csproj",
+      "msbuildProject": "../AcadiverseLib/AcadiverseLib.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0-windows7.0": [
+      "AcadiverseCourseCreator >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\bradley\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\bradley\\Documents\\ImportantDocuments\\Development\\Acadiverse\\acadiverse-windows\\Acadiverse Course Creator Crash Reporter\\Acadiverse Course Creator Bug Reporter.csproj",
+      "projectName": "AcadiverseCourseCreator_ReportBug",
+      "projectPath": "C:\\Users\\bradley\\Documents\\ImportantDocuments\\Development\\Acadiverse\\acadiverse-windows\\Acadiverse Course Creator Crash Reporter\\Acadiverse Course Creator Bug Reporter.csproj",
+      "packagesPath": "C:\\Users\\bradley\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bradley\\Documents\\ImportantDocuments\\Development\\Acadiverse\\acadiverse-windows\\Acadiverse Course Creator Crash Reporter\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\bradley\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "projectReferences": {
+            "C:\\Users\\bradley\\Documents\\ImportantDocuments\\Development\\Acadiverse\\acadiverse-windows\\AcadiverseCourseCreator\\AcadiverseCourseCreator.csproj": {
+              "projectPath": "C:\\Users\\bradley\\Documents\\ImportantDocuments\\Development\\Acadiverse\\acadiverse-windows\\AcadiverseCourseCreator\\AcadiverseCourseCreator.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net7.0-windows7.0": {
+        "targetAlias": "net7.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

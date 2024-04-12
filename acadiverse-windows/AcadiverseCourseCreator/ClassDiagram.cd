@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AcadiverseCourseCreator.CourseContent.Scenarios.Scripts.ScriptArguments.ScriptArgument" Collapsed="true">
+    <Position X="17" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CourseContent\Scenarios\Scripts\ScriptArguments\ScriptArgument.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AcadiverseCourseCreator.CourseContent.Scenarios.Scripts.ScriptBlocks.SayBlock" Collapsed="true">
+    <Position X="9.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>CourseContent\Scenarios\Scripts\ScriptBlocks\SayBlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AcadiverseCourseCreator.CourseContent.Scenarios.Scripts.ScriptBlocks.ScriptBlock" Collapsed="true">
+    <Position X="9.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAgAAAAAAAAAAAAAAAAAAAEAIAAAACAAAAAA=</HashCode>
+      <FileName>CourseContent\Scenarios\Scripts\ScriptBlocks\ScriptBlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AcadiverseCourseCreator.CourseContent.Scenarios.Scripts.ScenarioCondition" Collapsed="true">
+    <Position X="18.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAYAAAACAAAA=</HashCode>
+      <FileName>CourseContent\Scenarios\Scripts\ScenarioCondition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AcadiverseCourseCreator.CourseContent.Scenarios.Scripts.ScenarioScript" Collapsed="true">
+    <Position X="20.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CourseContent\Scenarios\Scripts\ScenarioScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AcadiverseCourseCreator.CourseContent.Scenarios.NPC" Collapsed="true">
+    <Position X="18.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAgAAAAQAAAQEAEAEAAAAAAAAQAQAEAA=</HashCode>
+      <FileName>CourseContent\Scenarios\NPC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AcadiverseCourseCreator.CourseContent.Scenarios.Scenario" Collapsed="true">
+    <Position X="12.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgIAEAAAAIAAAAiAAAAAAAAEACAAJAAgACAIAAAA=</HashCode>
+      <FileName>CourseContent\Scenarios\Scenario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AcadiverseCourseCreator.CourseContent.CourseChapter" Collapsed="true">
+    <Position X="17" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAIAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>CourseContent\CourseChapter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AcadiverseCourseCreator.CourseContent.CourseItem" Collapsed="true">
+    <Position X="12.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CourseContent\CourseItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AcadiverseCourseCreator.CourseContent.Project" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAREgIAABAAhAEAAoAQIAAQAAAAEAMACAARIAgAEQiA=</HashCode>
+      <FileName>CourseContent\Project.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AcadiverseCourseCreator.CourseContent.Quiz" Collapsed="true">
+    <Position X="14.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>CourseContent\Quiz.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AcadiverseCourseCreator.CourseContent.QuizQuestion" Collapsed="true">
+    <Position X="17" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAgAAAAIAACEAAAAhAAAAAABAAAAA=</HashCode>
+      <FileName>CourseContent\QuizQuestion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AcadiverseCourseCreator.CourseContent.Worksheet" Collapsed="true">
+    <Position X="10" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>CourseContent\Worksheet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

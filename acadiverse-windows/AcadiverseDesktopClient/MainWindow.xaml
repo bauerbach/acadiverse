@@ -1,0 +1,78 @@
+﻿<Window x:Class="AcadiverseDesktopClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AcadiverseDesktopClient"
+        mc:Ignorable="d"
+        Title="MainWindow" SizeToContent="WidthAndHeight" >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" MinWidth="1920" />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="38" />
+            <RowDefinition Height="61" MinHeight="981" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Label Content="Acadiverse" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="20" Height="38"/>
+        <TabControl Grid.Row="1" TabStripPlacement="Left">
+            <TabItem Background="#FFFFFF">
+                <TabItem.Header>
+                    <Label FontSize="16" Content="Dashboard" Width="181" />
+                </TabItem.Header>
+                <Grid Background="#FFFFFF">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="396" />
+                    </Grid.ColumnDefinitions>
+                </Grid>
+            </TabItem>
+            <TabItem Background="#FFFFFF">
+                <TabItem.Header>
+                    <Label FontSize="16" Content="Buddies" Width="181" />
+                </TabItem.Header>
+                <Grid Background="#FFFFFF">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="396" />
+                    </Grid.ColumnDefinitions>
+                </Grid>
+            </TabItem>
+            <TabItem Background="#FFFFFF">
+                <TabItem.Header>
+                    <Label FontSize="16" Content="My Submissions" Width="181" />
+                </TabItem.Header>
+                <Grid Background="#FFFFFF">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="396" />
+                    </Grid.ColumnDefinitions>
+                </Grid>
+            </TabItem>
+            <TabItem Background="#FFFFFF">
+                <TabItem.Header>
+                    <Label FontSize="16" Content="My Items" Width="181" />
+                </TabItem.Header>
+                <Grid Background="#FFFFFF">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="396" />
+                    </Grid.ColumnDefinitions>
+                </Grid>
+            </TabItem>
+            <TabItem Background="#FFFFFF">
+                <TabItem.Header>
+                    <Label FontSize="16" Content="Classroom Discussions" Width="181" />
+                </TabItem.Header>
+                <Grid Background="#FFFFFF">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="396" />
+                    </Grid.ColumnDefinitions>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

@@ -1,0 +1,37 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AcadiverseCourseCreator" x:Class="AcadiverseCourseCreator.PublishWindow"
+        mc:Ignorable="d"
+        Title="Publish" Height="425" Width="560" SizeToContent="WidthAndHeight">
+    <Grid>
+        <Label Content="Title:" HorizontalAlignment="Left" Margin="10,3,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtTitle" HorizontalAlignment="Left" Margin="11,29,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="539" Grid.ColumnSpan="2"/>
+        <Label Content="Description:" HorizontalAlignment="Left" Margin="10,48,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtDescription" HorizontalAlignment="Left" Margin="11,74,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="539" Height="150" Grid.ColumnSpan="2"/>
+        <Label Content="Tags:" HorizontalAlignment="Left" Margin="11,224,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtTags" HorizontalAlignment="Left" Margin="11,250,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="539" Grid.ColumnSpan="2"/>
+        <GroupBox Header="Targeted Group: " Margin="11,270,285,54">
+            <StackPanel>
+                <RadioButton x:Name="rbtPreK" Content="Pre-K"/>
+                <RadioButton x:Name="rbtKTo12" Content="K-12"/>
+                <RadioButton x:Name="rbtCollegeLevel" Content="College-Level"/>
+                <RadioButton x:Name="rbtCorporateTraining" Content="Corporate Training"/>
+            </StackPanel>
+        </GroupBox>
+        <CheckBox x:Name="chkMatureContent" Content="Mature Content" Margin="11,360,224,33"/>
+        <GroupBox Header="Grade Level" Margin="280,270,10,54" Grid.ColumnSpan="2">
+            <Grid>
+                <Label Content="Min. Grade:" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                <Slider x:Name="sldMinGrade" HorizontalAlignment="Left" Margin="86,4,0,0" VerticalAlignment="Top" Width="162"/>
+                <Label Content="Max. Grade:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,26,0,0"/>
+                <Slider x:Name="sldMaxGrade" HorizontalAlignment="Left" Margin="86,31,0,0" VerticalAlignment="Top" Width="162"/>
+            </Grid>
+        </GroupBox>
+
+        <Button x:Name="btnPublish" Content="Publish" HorizontalAlignment="Left" Margin="431,379,0,0" VerticalAlignment="Top" Click="BtnPublish_Click" Width="57"/>
+        <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="493,379,0,0" VerticalAlignment="Top" Width="57" RenderTransformOrigin="0.561,1.1"/>
+    </Grid>
+</Window>

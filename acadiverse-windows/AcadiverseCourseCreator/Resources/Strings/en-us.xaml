@@ -1,0 +1,28 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <system:String x:Key="ui.menu.file">File</system:String>
+    <system:String x:Key="ui.menu.edit">Edit</system:String>
+    <system:String x:Key="ui.menu.view">View</system:String>
+    <system:String x:Key="ui.menu.project">Project</system:String>
+    <system:String x:Key="ui.menu.tools">Tools</system:String>
+    <system:String x:Key="ui.menu.window">Window</system:String>
+    <system:String x:Key="ui.menu.help">Help</system:String>
+
+    <system:String x:Key="msg.error.caption">Error</system:String>
+    <system:String x:Key="msg.crash.unknownError">An unknown error has occurred. Please provide as much information about how to reproduce the issue as you can if you send a bug report.</system:String>
+    <system:String x:Key="msg.crash.bugReporterIssue">The bug reporter could not be loaded. Report the issue on the Acadiverse website instead?</system:String>
+    <system:String x:Key="msg.taskDialog.crash.mainInstruction">Acadiverse Course Creator has crashed.</system:String>
+    <system:String x:Key="msg.taskDialog.crash.content">Acadiverse Course Creator has encountered a serious error and will be closed.</system:String>
+    <system:String x:Key="msg.taskDialog.crash.windowTitle">Yikes!</system:String>
+    <system:String x:Key="msg.taskDialog.crash.button.viewLog">View Log</system:String>
+    <system:String x:Key="msg.taskDialog.crash.button.viewLog.note">View the error log.</system:String>
+    <system:String x:Key="msg.taskDialog.crash.button.sendBugReport">Report Bug</system:String>
+    <system:String x:Key="msg.taskDialog.crash.button.sendBugReport.note">Send a bug report.</system:String>
+
+    <system:String x:Key="msg.missingAssemblies">Acadiverse Course Creator could not start because the following DLL was missing: $. Please reinstall the application from the Acadiverse Launcher.</system:String>
+
+    <system:String x:Key="msg.confirmSaveBeforeClose">Save project before closing?</system:String>
+    <system:String x:Key="msg.confirmSaveBeforeNew">Save project before creating a new one?</system:String>
+
+</ResourceDictionary>

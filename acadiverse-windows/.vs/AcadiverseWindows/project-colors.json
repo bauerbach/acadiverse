@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "100c74de-dca9-46c9-8a05-1e60d6923bb7": {
+      "ProjectGuid": "100c74de-dca9-46c9-8a05-1e60d6923bb7",
+      "DisplayName": "AcadiverseLauncher",
+      "ColorIndex": 0
+    },
+    "216af714-c9e7-406d-86fa-71f267d849ab": {
+      "ProjectGuid": "216af714-c9e7-406d-86fa-71f267d849ab",
+      "DisplayName": "AcadiverseDesktop (Package)",
+      "ColorIndex": 1
+    },
+    "30663b6e-7830-432f-b8c2-7242e5c2a764": {
+      "ProjectGuid": "30663b6e-7830-432f-b8c2-7242e5c2a764",
+      "DisplayName": "AcadiverseDesktop",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "e5a9d251-2c18-47dd-9939-87c60aad0e9a": {
+      "ProjectGuid": "e5a9d251-2c18-47dd-9939-87c60aad0e9a",
+      "DisplayName": "Acadiverse (Package)",
+      "ColorIndex": 3
+    },
+    "54f23ca4-912e-405f-89f4-8cdc66be4c9c": {
+      "ProjectGuid": "54f23ca4-912e-405f-89f4-8cdc66be4c9c",
+      "DisplayName": "Acadiverse",
+      "ColorIndex": 4
+    },
+    "fd92906f-f81b-4698-9750-ca8c1f785d6a": {
+      "ProjectGuid": "fd92906f-f81b-4698-9750-ca8c1f785d6a",
+      "DisplayName": "AcadiverseLauncher",
+      "ColorIndex": 5
+    },
+    "46747e35-63c6-4ff8-ae4b-8638b852b529": {
+      "ProjectGuid": "46747e35-63c6-4ff8-ae4b-8638b852b529",
+      "DisplayName": "AcadiverseCourseCreator",
+      "ColorIndex": 6
+    },
+    "c5cddb72-abaf-4813-a293-b127228aa192": {
+      "ProjectGuid": "c5cddb72-abaf-4813-a293-b127228aa192",
+      "DisplayName": "Acadiverse",
+      "ColorIndex": 7
+    },
+    "b8d94f7e-1bd6-4300-ac68-26894573d182": {
+      "ProjectGuid": "b8d94f7e-1bd6-4300-ac68-26894573d182",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 8
+    },
+    "1fe70355-70f1-49f2-a194-706f97c64e67": {
+      "ProjectGuid": "1fe70355-70f1-49f2-a194-706f97c64e67",
+      "DisplayName": "Leisuware.Acadiverse",
+      "ColorIndex": 9
+    },
+    "e6f93e1e-181b-4a43-81c8-df9e0335ac44": {
+      "ProjectGuid": "e6f93e1e-181b-4a43-81c8-df9e0335ac44",
+      "DisplayName": "AcadiverseLib",
+      "ColorIndex": 10
+    }
+  },
+  "NextColorIndex": 11
+}

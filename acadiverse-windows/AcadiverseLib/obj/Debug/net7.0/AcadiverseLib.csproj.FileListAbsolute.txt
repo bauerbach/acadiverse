@@ -1,0 +1,14 @@
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\AcadiverseLib\obj\Debug\net7.0\AcadiverseLib.csproj.AssemblyReference.cache
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\AcadiverseLib\obj\Debug\net7.0\AcadiverseLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\AcadiverseLib\obj\Debug\net7.0\AcadiverseLib.AssemblyInfoInputs.cache
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\AcadiverseLib\obj\Debug\net7.0\AcadiverseLib.AssemblyInfo.cs
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\AcadiverseLib\obj\Debug\net7.0\AcadiverseLib.csproj.CoreCompileInputs.cache
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\AcadiverseLib\bin\Debug\net7.0\AcadiverseLib.deps.json
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\AcadiverseLib\bin\Debug\net7.0\AcadiverseLib.dll
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\AcadiverseLib\bin\Debug\net7.0\AcadiverseLib.pdb
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\AcadiverseLib\obj\Debug\net7.0\AcadiverseLib.dll
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\AcadiverseLib\obj\Debug\net7.0\refint\AcadiverseLib.dll
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\AcadiverseLib\obj\Debug\net7.0\AcadiverseLib.pdb
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\AcadiverseLib\obj\Debug\net7.0\ref\AcadiverseLib.dll
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\AcadiverseLib\obj\Debug\net7.0\AcadiverseLib.Resources.resources
+C:\Users\bradley\Documents\ImportantDocuments\Development\Acadiverse\acadiverse-windows\AcadiverseLib\obj\Debug\net7.0\AcadiverseLib.csproj.GenerateResource.cache

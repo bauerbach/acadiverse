@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>AcadiverseCourseCreator</id>
+    <version>1.0.0</version>
+    <authors>MagiZile</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0-windows7.0">
+        <dependency id="MahApps.Metro" version="2.4.9" exclude="Build,Analyzers" />
+        <dependency id="MahApps.Metro.IconPacks" version="4.11.0" exclude="Build,Analyzers" />
+        <dependency id="MahApps.Metro.IconPacks.FontAwesome" version="4.11.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net5.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\bradley\Documents\ImportantDocuments\Development\GitHub\Acadiverse\windows\AcadiverseWindows\AcadiverseCourseCreator\bin\Debug\net5.0-windows\AcadiverseCourseCreator.runtimeconfig.json" target="lib\net5.0-windows7.0\AcadiverseCourseCreator.runtimeconfig.json" />
+    <file src="C:\Users\bradley\Documents\ImportantDocuments\Development\GitHub\Acadiverse\windows\AcadiverseWindows\AcadiverseCourseCreator\bin\Debug\net5.0-windows\AcadiverseCourseCreator.dll" target="lib\net5.0-windows7.0\AcadiverseCourseCreator.dll" />
+  </files>
+</package>
