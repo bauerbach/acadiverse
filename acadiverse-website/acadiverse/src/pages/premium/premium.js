@@ -1,0 +1,39 @@
+import { createMedia } from "@artsy/fresnel";
+import React, { Component } from 'react';
+import { Container } from 'semantic-ui-react';
+import Navigation from '../components/custom_components/navigation.component';
+import Footer from '../components/custom_components/footer.component';
+//import { FormattedMessage } from 'react-intl';
+
+
+const AppMedia = createMedia({
+    breakpoints: {
+        mobile: 320,
+        tablet:768,
+        computer: 992,
+        largeScreen: 1200,
+        widescreen: 1920
+    }
+});
+
+const mediaStyles = AppMedia.createMediaStyle();
+const { Media, MediaContextProvider } = AppMedia;
+
+export default function PremiumComponent() {
+    document.title = "Premium - Acadiverse";
+    return (
+        
+            
+            <MediaContextProvider>
+                <Container fluid as={Media} at="mobile" className="content">  
+                    
+                </Container>
+
+                <Container fluid as={Media} greaterThan="mobile" className="content">
+                    
+                </Container>
+            </MediaContextProvider>
+            
+        </Navigation>
+    )
+}

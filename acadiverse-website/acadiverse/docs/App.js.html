@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JSDoc: Source: App.js</title>
+
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+
+<body>
+
+<div id="main">
+
+    <h1 class="page-title">Source: App.js</h1>
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/**
+ * @file Contains all of the routes for the app as well as loading/error handling.
+ * @author Bradley Auerbach &lt;bauerbach@gmail.com>
+ * @version 1.0.0
+ */
+
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import { Modal, Button } from "semantic-ui-react";
+
+import { BrowserRouter, Router, Routes, Route } from "react-router-dom";
+import React from "react";
+import { useState, useEffect } from "react";
+import { Provider, useDispatch } from "react-redux";
+import { IntlProvider } from "react-intl";
+import { connect } from "react-redux";
+
+import Globals from './globals';
+import "./style.css";
+
+import AboutComponent from "./components/pages/about.component";
+import AcceptableUsePolicyComponent from './components/pages/acceptable-use-policy.component';
+import AccountSettingsPage from './components/pages/account-settings-page.component';
+import AdminDashboardComponent from "./components/pages/admin-dashboard.component";
+import AppComponent from "./components/acadiverse-web-app/app.component";
+import AppealComponent from "./components/pages/appeal.component";
+import BlogPostComponent from "./components/pages/blog-post.component";
+import CodeOfConductComponent from "./components/pages/code-of-conduct.component";
+import ContactComponent from './components/pages/contact.component';
+import CookiePolicyComponent from './components/pages/cookie-policy.component';
+import DMCAPolicyComponent from './components/pages/dmca-policy.component';
+import DownloadComponent from "./components/pages/download-component.component";
+import EditBlogPostComponent from "./components/pages/edit-blog-post.component";
+import EditSubmissionComponent from "./components/pages/edit-submission.component";
+import Error404Component from "./components/pages/error404.component";
+import MainComponent from "./components/pages/main-component.component";
+import PremiumComponent from "./components/pages/premium.component";
+import PremiumCheckoutPage from "./components/pages/premium-checkout.component";
+import PrivacyPolicyComponent from './components/pages/privacy-policy.component';
+import ProfilePageComponent from './components/pages/profile-page.component';
+import SubmissionsPage from "./components/pages/submissions-page.component";
+import SubmissionDetailsPage from "./components/pages/submission-details.component";
+import StorePage from "./components/pages/store-page.component";
+import TermsAndConditionsComponent from './components/pages/terms.component';
+import ViewBlogPostsComponent from "./components/pages/view-blog-posts-component";
+import ViewForumCategoriesComponent from "./components/pages/view-forum-categories.component";
+
+import OnboardingModal from "./components/modals/onboarding.component";
+import AccountBanNotice from "./components/modals/account-ban_notice.component";
+import ModeratorWarningComponent from "./components/modals/moderator-warning.component";
+import PrivateMessagesModal from "./components/modals/private_messages.component";
+import NotificationsModal from "./components/modals/notifications.component";
+
+//import axios from "axios";
+
+import messages_enUS from "./lang/en-US.json";
+
+import setAuthToken from "./services/auth.token";
+import { setCurrentUser, logoutUser } from "./services/auth.service";
+import { getAccountInfo } from "./services/account.service";
+import jwt_decode from "jwt-decode";
+
+var loggedIn = false;
+var loading = false;
+
+require('@formatjs/intl-pluralrules/polyfill')
+require('@formatjs/intl-relativetimeformat/polyfill');
+
+
+
+export default function App() {
+  const [error, setError] = useState(false);
+  
+  const messages = {
+    'en-US': messages_enUS
+  };
+
+  const dispatch = useDispatch();
+
+  function handleErrorChange(e) {
+    loading = false;
+  }
+
+  function pingServer() {
+    return new Promise((resolve) => {
+      fetch(Globals.API_URL)
+        .then((response) => {
+          setError(false);
+          if(!loggedIn) {
+            loading = false;
+            setError(false);
+          }
+        })
+        .catch((error) => {
+          loading = false;
+          setError(true);
+        });
+    });
+  }
+
+  useEffect(() => {
+    pingServer();
+  });
+    if(error) {
+      return (
+      &lt;div className="server-error">
+        &lt;h1>Acadiverse is currently experiencing technical difficulties.&lt;/h1>
+        &lt;p>Our system appears to be having issues at the moment. For updates on the situation, please follow us on social media or check out our Discord server.&lt;/p>
+      &lt;/div>
+      )
+    } else {
+      if(loading) {
+        return null;
+      } else {
+        
+        return (
+            &lt;Routes>
+              &lt;Route path="/" element={&lt;MainComponent />} />
+              &lt;Route path="/about" element={&lt;AboutComponent />} />
+              &lt;Route path="/account/appeal" element={&lt;AppealComponent />} />
+              &lt;Route path="/admin-dashboard" element={&lt;AdminDashboardComponent />} />
+              &lt;Route path="/account/settings" element={&lt;AccountSettingsPage />} />
+              &lt;Route path="/app" element={&lt;AppComponent />} />
+              &lt;Route path="/blog/latest-posts" element={&lt;ViewBlogPostsComponent />} />
+              &lt;Route path="/blog/:post" element={&lt;BlogPostComponent />} />
+              &lt;Route path="/blog/posts/edit/:post" element={&lt;EditBlogPostComponent />} />
+              &lt;Route path="/contact" element={&lt;ContactComponent />} />
+              &lt;Route path="/download" element={&lt;DownloadComponent />} />
+              &lt;Route path="/forum/categories" element={&lt;ViewForumCategoriesComponent />} />
+              &lt;Route path="/store" element={&lt;StorePage />} />
+              &lt;Route path="/submissions" element={&lt;SubmissionsPage />} />
+              &lt;Route path="/submission/:id" element={&lt;SubmissionDetailsPage />}/>
+              &lt;Route path="/submissions/edit" element={&lt;EditSubmissionComponent />} />
+              &lt;Route path="/premium" element={&lt;PremiumComponent />} />
+              &lt;Route path="/premium/checkout" element={&lt;PremiumCheckoutPage />} />
+              &lt;Route path="/policies/acceptable-use-policy" element={&lt;AcceptableUsePolicyComponent />} />     
+              &lt;Route path="/policies/code-of-conduct" element={&lt;CodeOfConductComponent />} />
+              &lt;Route path="/policies/cookie-policy" element={&lt;CookiePolicyComponent />} />
+              &lt;Route path="/policies/copyright-policy" element={&lt;DMCAPolicyComponent />} />
+              &lt;Route path="/policies/privacy-policy" element={&lt;PrivacyPolicyComponent />} />
+              &lt;Route path="/policies/terms-and-conditions" element={&lt;TermsAndConditionsComponent />} />
+              &lt;Route path="/profile/:user" element={&lt;ProfilePageComponent />} />
+              &lt;Route path="*" element={&lt;Error404Component />} />
+            &lt;/Routes>
+      );
+    }
+  }
+}</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2>
+</nav>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 4.0.1</a> on Wed Apr 10 2024 17:45:20 GMT-0400 (Eastern Daylight Time)
+</footer>
+
+<script> prettyPrint(); </script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>

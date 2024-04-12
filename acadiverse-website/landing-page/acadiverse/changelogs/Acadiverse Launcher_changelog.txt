@@ -1,0 +1,3 @@
+Acadiverse Launcher v1.0.0.1 (April 10, 2023):
+
+This is a sample changelog for testing the "Check for Updates" feature.

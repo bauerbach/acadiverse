@@ -128,3 +128,14 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+acadiverse-website/yarn.lock
+acadiverse-website/start-frontend.bat
+acadiverse-website/start-backend.bat
+/acadiverse-website/acadiverse/.yarn
+acadiverse-website/design_checklist.docx
+acadiverse-website/acadiverse/yarn.lock
+acadiverse-website/acadiverse/start-electron.bat
+acadiverse-website/acadiverse/update-jsdocs.bat
+acadiverse-website/acadiverse/reinstall-node-modules.bat
+/acadiverse-website/.vs
+/acadiverse-website/acadiverse/server/.yarn
